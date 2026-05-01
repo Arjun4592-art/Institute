@@ -62,14 +62,14 @@ const About = () => {
           {aboutContent.map((item, _index) => (
             <div
               key={_index}
-              className='p-5 shadow-[0_0_6px_#9ca3afaf] rounded-md'
+              className='p-5 shadow-[0_0_8px_#a78bfa] rounded-md'
             >
               <div className='w-8 h-8 bg-primary-light/70 rounded-sm flex items-center justify-center text-text-primary mb-2'>
                 <item.icon className='w-4' />
               </div>
-              <h1 className='font-bold'>{item.title}</h1>
+              <h1 className='font-bold mb-0.5'>{item?.title}</h1>
               <p className='text-sm leading-4 text-text-secondary'>
-                {item.description}
+                {item?.description}
               </p>
             </div>
           ))}
