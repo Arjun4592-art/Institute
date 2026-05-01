@@ -15,8 +15,8 @@ const HeroSection = () => {
   ]
 
   return (
-    <div className='grid grid-cols-[10%_90%] min-h-screen'>
-      <div className='bg-dark-200 p-5 text-white border-r-4 border-dark-100'>
+    <div className='grid grid-cols-[15%_85%] min-h-screen'>
+      <div className='bg-dark-200 p-5 text-white border-r-4 border-text-secondary'>
         <h3 className='relative text-4xl font-bold after:content-[""] after:absolute after:w-10 after:h-1 after:z-2 after:bg-primary after:left-0 after:-bottom-4'>
           01
         </h3>
