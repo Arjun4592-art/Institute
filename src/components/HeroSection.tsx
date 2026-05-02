@@ -45,10 +45,10 @@ const HeroSection = () => {
             job-ready.
           </p>
           <div className='flex gap-4 items-center flex-wrap mb-10'>
-            <button className='text-text-primary border-2 border-primary-dark bg-primary-dark rounded-sm py-2 px-3'>
+            <button className='cursor-pointer text-text-primary border-2 border-primary-dark bg-primary-dark rounded-sm py-2 px-3 transition-[color_200,transform_500] duration-300 hover:bg-transparent hover:border-text-primary hover:transform-[translateX(-8px)]'>
               Explore Courses
             </button>
-            <button className='flex gap-2 text-text-primary border-2 border-text-secondary py-2 px-3 rounded-sm'>
+            <button className='cursor-pointer flex gap-2 text-text-primary border-2 border-text-secondary py-2 px-3 rounded-sm transition-[color_200,transform_500] duration-300 hover:bg-primary-dark hover:border-primary-dark hover:transform-[translateX(8px)]'>
               Watch Demo <Play />
             </button>
           </div>

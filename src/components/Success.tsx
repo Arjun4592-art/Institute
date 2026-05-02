@@ -44,32 +44,44 @@ const Success = () => {
       </div>
       <div className='bg-dark-300 px-15 py-10'>
         <div className='flex items-center flex-col'>
-          <div className='inline-flex items-center gap-2 bg-primary-light py-0.5 px-2 rounded-full font-heading font-semibold text-text-primary'>
+          <div className='inline-flex items-center gap-2 bg-primary-light py-2 px-4 rounded-full font-heading font-semibold text-text-primary text-sm'>
             Success Stories
           </div>
-          <h1 className='my-3 mb-1 text-3xl font-bold font-heading text-text-primary'>
-            What Our <span className='text-primary-light'>Students</span> Say
+          <h1 className='my-3 mb-1 text-4xl font-bold font-heading text-text-primary'>
+            What Our <span className='text-primary-light'>Students</span> Say.
           </h1>
           <p className='text-text-secondary'>
             Our students success is our pride. Here's what they have to say
             about CodeFuture.
           </p>
         </div>
-        <div>
+        <div className='grid grid-cols-3 my-5 gap-8'>
           {SuccessStories.map((item, _index) => (
-            <div key={_index}>
+            <div
+              key={_index}
+              className='bg-dark-400 border border-text-secondary rounded-md py-2.5 px-4'
+            >
               <div>
                 <img src={item?.image} alt='' />
               </div>
-              <div>
+              <div className='text-text-primary'>
                 <div>
                   <p>{item?.ratings}</p>
                 </div>
-                <p>{item?.reviews}</p>
-                <h1>{item?.name}</h1>
-                <p>{item?.placement}</p>
+                <p className='leading-4 my-3 text-text-secondary'>
+                  {item?.reviews}
+                </p>
+                <h1 className='font-semibold text-primary-light'>
+                  {item?.name}
+                </h1>
+                <p className='text-xs'>{item?.placement}</p>
               </div>
             </div>
+          ))}
+        </div>
+        <div className='flex items-center justify-center gap-2 mt-8'>
+          {SuccessStories.map((_index) => (
+            <div className='w-3 h-3 bg-text-primary rounded-full'></div>
           ))}
         </div>
       </div>

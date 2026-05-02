@@ -43,12 +43,12 @@ const Features = () => {
       </div>
       <div className='px-15 py-10'>
         <div className='flex items-center flex-col'>
-          <div className='inline-flex items-center gap-2 bg-primary-light/70 py-0.5 px-2 text-primary-dark rounded-full font-semibold'>
+          <div className='inline-flex items-center gap-2 bg-primary-light/70 py-2 px-4 text-primary-dark rounded-full font-semibold text-sm'>
             Our Features
           </div>
-          <h1 className='font-heading text-4xl font-bold py-2 text-dark-100'>
+          <h1 className='text-4xl font-bold font-heading py-2 text-dark-100'>
             Everything You Need to{' '}
-            <span className='text-primary-light'>Succeed</span>
+            <span className='text-primary-light'>Succeed.</span>
           </h1>
         </div>
         <div className='grid grid-cols-5 mt-10 gap-4'>

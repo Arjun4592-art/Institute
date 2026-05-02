@@ -30,9 +30,17 @@
     0%,
     100% {
       box-shadow: 0 0 0 3px var(--color-primary);
+      opacity: 1;
+      border-width: 1px;
     }
     50% {
       box-shadow: 0 0 0 6px var(--color-primary-light);
+      opacity: 0.2;
+      border-color: var(--color-primary-dark);
     }
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -43,7 +43,7 @@ const About = () => {
       </div>
       <div className='grid grid-cols-[40%_60%] gap-8 py-8 px-15'>
         <div>
-          <div className='relative inline-flex items-center gap-2 bg-primary-light text-text-primary border border-primary-dark py-1 px-3 rounded-full before:content-[""] before:w-1.5 before:h-1.5 before:bg-primary-dark before:rounded-full'>
+          <div className='relative inline-flex items-center gap-2 bg-primary-light text-text-primary border border-primary-dark py-1 px-3 rounded-full before:content-[""] before:w-1.5 before:h-1.5 before:bg-primary-dark before:rounded-full before:animate-pulse-mine'>
             About Us
           </div>
           <h1 className='font-heading text-4xl font-bold py-5'>

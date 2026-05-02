@@ -53,7 +53,7 @@ const Courses = () => {
           <div className='inline-flex py-0.5 px-2 bg-primary-light/70 rounded-full text-text-primary'>
             Our Courses
           </div>
-          <h1 className='my-3 mb-1 text-3xl font-bold font-heading text-text-secondary'>
+          <h1 className='my-3 mb-1 text-4xl font-bold font-heading text-text-secondary'>
             <span className='text-primary-light'>Courses</span> We Offer
           </h1>
           <p className='text-text-secondary text-sm'>
