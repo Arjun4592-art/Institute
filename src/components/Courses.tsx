@@ -50,7 +50,7 @@ const Courses = () => {
       </div>
       <div className='bg-dark-300 px-15 py-10'>
         <div className='flex items-center flex-col'>
-          <div className='inline-flex py-0.5 px-2 bg-primary-light rounded-full text-text-primary'>
+          <div className='inline-flex py-0.5 px-2 bg-primary-light/70 rounded-full text-text-primary'>
             Our Courses
           </div>
           <h1 className='my-3 mb-1 text-3xl font-bold font-heading text-text-secondary'>
@@ -86,7 +86,9 @@ const Courses = () => {
           ))}
         </div>
         <div className='mt-10 flex items-center justify-center'>
-          <button className='bg-primary-dark text-text-secondary py-2 px-4 rounded-md'>View All Courses</button>
+          <button className='bg-primary-dark text-text-secondary py-2 px-4 rounded-md'>
+            View All Courses
+          </button>
         </div>
       </div>
     </div>

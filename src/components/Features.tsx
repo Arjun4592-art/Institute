@@ -41,16 +41,26 @@ const Features = () => {
           Our Features
         </h2>
       </div>
-      <div>
-        <div>
-          <div>Our Features</div>
-          <h1>Everything You Need to Succeed</h1>
+      <div className='px-15 py-10'>
+        <div className='flex items-center flex-col'>
+          <div className='inline-flex items-center gap-2 bg-primary-light/70 py-0.5 px-2 text-primary-dark rounded-full font-semibold'>
+            Our Features
+          </div>
+          <h1 className='font-heading text-4xl font-bold py-2 text-dark-100'>
+            Everything You Need to{' '}
+            <span className='text-primary-light'>Succeed</span>
+          </h1>
         </div>
-        <div>
+        <div className='grid grid-cols-5 mt-10 gap-4'>
           {features.map((item, _index) => (
-            <div key={_index}>
-              <h1>{item?.title}</h1>
-              <p>{item?.description}</p>
+            <div
+              key={_index}
+              className='p-2 shadow-[0_0_8px_#a78bfa] rounded-md'
+            >
+              <h1 className='font-heading font-bold mb-2'>{item?.title}</h1>
+              <p className='leading-4 text-text-secondary text-sm'>
+                {item?.description}
+              </p>
             </div>
           ))}
         </div>
