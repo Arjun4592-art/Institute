@@ -57,7 +57,9 @@ const Features = () => {
               key={_index}
               className='p-2 shadow-[0_0_8px_#a78bfa] rounded-md'
             >
-              <h1 className='font-heading font-bold mb-2'>{item?.title}</h1>
+              <h1 className='font-heading font-bold mb-2 leading-4.5 text-sm'>
+                {item?.title}
+              </h1>
               <p className='leading-4 text-text-secondary text-sm'>
                 {item?.description}
               </p>

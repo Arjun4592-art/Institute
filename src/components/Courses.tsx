@@ -72,7 +72,7 @@ const Courses = () => {
                   <img src={item?.image} alt='' />
                 </div>
               </div>
-              <h1 className='text-text-primary leading-4 mb-4 mt-1 font-semibold font-heading'>
+              <h1 className='text-text-primary leading-5 mb-4 mt-1 font-semibold font-heading'>
                 {item?.title}
               </h1>
               <p className='text-text-secondary text-sm leading-4 mb-4'>
